@@ -12,6 +12,8 @@ Nodejs & Express - In Backend
 MongoDB - For Database 
 
 ReactJS - In Frontend 
+
+Redux - For State Management
 ```
 
 **Clone This Repo**
