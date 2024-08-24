@@ -3,7 +3,7 @@
 **Clone This Repo**
 
 ```
-git clone https://github.com/ra463/p-back.git
+git clone https://github.com/ra463/z-pay-server.git
 ```
 
 Create a file named `config.env` in the `config` folder and add the following env variable
