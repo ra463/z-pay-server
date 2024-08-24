@@ -1,8 +1,18 @@
 # ZuPay Assignment
 
-Server/Backend is Deployed on - `Adaptable` [CI/CD Pipeline is working fine]
+Server/Backend (Node + Express) is Deployed on - `Adaptable` [CI/CD Pipeline is working fine]
 
-Client/Frontend is Deployed on - `Vercel` [CI/CD Pipeline is working fine]
+Client/Frontend (ReactJS) is Deployed on - `Vercel` [CI/CD Pipeline is working fine]
+
+Tech Stack Used:-
+
+```
+Nodejs & Express - In Backend 
+
+MongoDB - For Database 
+
+ReactJS - In Frontend 
+```
 
 **Clone This Repo**
 
