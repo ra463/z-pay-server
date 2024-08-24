@@ -1,7 +1,8 @@
 # ZuPay Assignment
 
-Server is Hoisted/Deployed on - `Adaptable`
-Client/Frontend is Deployed on - `Vercel`
+Server/Backend is Deployed on - `Adaptable` [CI/CD Pipeline is working fine]
+
+Client/Frontend is Deployed on - `Vercel` [CI/CD Pipeline is working fine]
 
 **Clone This Repo**
 
