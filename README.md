@@ -1,5 +1,8 @@
 # ZuPay Assignment
 
+Server is Hoisted/Deployed on - `Adaptable`
+Client/Frontend is Deployed on - `Vercel`
+
 **Clone This Repo**
 
 ```
