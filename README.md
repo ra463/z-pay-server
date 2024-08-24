@@ -16,6 +16,8 @@ ReactJS - In Frontend
 Redux - For State Management
 ```
 
+*Bonus Points are also covered*
+
 **Clone This Repo**
 
 ```
