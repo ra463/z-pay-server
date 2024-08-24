@@ -4,6 +4,7 @@ const ErrorHandler = require("../utils/errorHandler");
 const Blog = require("../models/Blog");
 const { getDataUri } = require("../utils/dataUri");
 const cloudinary = require("cloudinary");
+const Comment = require("../models/Comment");
 
 exports.createBlog = catchAsyncError(async (req, res, next) => {
   const user = await User.findById(req.userId);
@@ -154,6 +155,13 @@ exports.deleteBlog = catchAsyncError(async (req, res, next) => {
   if (blog.images.length > 0) {
     for (let i = 0; i < blog.images.length; i++) {
       await cloudinary.v2.uploader.destroy(blog.images[i].public_id);
+    }
+  }
+
+  const comments = await Comment.find({ blog: blog._id });
+  if (comments.length > 0) {
+    for (let i = 0; i < comments.length; i++) {
+      await comments[i].deleteOne();
     }
   }
 
